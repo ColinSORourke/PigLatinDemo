@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./maxStyle.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+</style>
+<script src = "./myScript.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper flex_box">
+        <h1> Pig Latin Transator </h1>
+    </div>
+
+    <div class="wrapper flex_box">
+        <form>
+            <div class="input">
+                <label> Text to translate</label>
+                <textarea placeholder="Type something to translate to Pig latin" class="comment" id="myInput"></textarea>
+            </div>
+            <div class="button_wrapper">
+                <button type="button" onclick="translateToPigLatin()">
+                  submit
+                </button>
+            </div>
+        </form><br>
+
+        
+    </div>
+
+    <div class="wrapper flex_box">
+        <p id = "myOutput">Your output will go here!</p>
+    </div>
+
+</body>
+</html>
